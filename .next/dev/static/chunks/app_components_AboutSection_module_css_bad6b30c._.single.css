@@ -1,0 +1,31 @@
+/* [project]/app/components/AboutSection.module.css [app-client] (css) */
+.AboutSection-module__gMUiGa__aboutSection {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.AboutSection-module__gMUiGa__aboutTitle {
+  color: #222;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.AboutSection-module__gMUiGa__aboutContent {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .AboutSection-module__gMUiGa__aboutTitle {
+    font-size: 1.5rem;
+  }
+
+  .AboutSection-module__gMUiGa__aboutContent {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=app_components_AboutSection_module_css_bad6b30c._.single.css.map*/

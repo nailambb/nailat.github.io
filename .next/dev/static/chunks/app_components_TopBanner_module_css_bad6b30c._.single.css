@@ -1,0 +1,42 @@
+/* [project]/app/components/TopBanner.module.css [app-client] (css) */
+.TopBanner-module__DR1t8a__topBannerContainer {
+  z-index: 1000;
+  background-color: #5c4033;
+  border: 2px solid #5c4033;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+}
+
+.TopBanner-module__DR1t8a__bannerContent {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.TopBanner-module__DR1t8a__text {
+  text-align: center;
+  color: #f6f1ef;
+  flex-grow: 1;
+  margin: 0;
+  font: 400 14px / 1.5 Trebuchet MS, sans-serif;
+}
+
+.TopBanner-module__DR1t8a__closeButton {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.TopBanner-module__DR1t8a__closeButton:hover {
+  color: #2e2019;
+}
+
+/*# sourceMappingURL=app_components_TopBanner_module_css_bad6b30c._.single.css.map*/

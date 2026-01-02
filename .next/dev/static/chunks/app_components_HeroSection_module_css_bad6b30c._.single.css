@@ -1,0 +1,56 @@
+/* [project]/app/components/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__8AZ9Vq__heroContent {
+  text-align: center;
+  background-color: #f5f5f5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+}
+
+.HeroSection-module__8AZ9Vq__heroTitle {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.HeroSection-module__8AZ9Vq__heroSubtitle {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.HeroSection-module__8AZ9Vq__heroButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  transition: background-color .3s;
+}
+
+.HeroSection-module__8AZ9Vq__heroButton:hover {
+  background-color: #005bb5;
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__8AZ9Vq__heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .HeroSection-module__8AZ9Vq__heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .HeroSection-module__8AZ9Vq__heroButton {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=app_components_HeroSection_module_css_bad6b30c._.single.css.map*/

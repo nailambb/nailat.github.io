@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/components/TopBanner.module.css"],"sourcesContent":[".topBannerContainer {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    width: 100%;\n    background-color: #5C4033;\n    border: 2px solid #5C4033;\n    padding: 10px 0;\n    z-index: 1000;\n  }\n  \n  .bannerContent {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    width: 100%;\n  }\n  \n  .text {\n    flex-grow: 1;\n    text-align: center;\n    margin: 0;\n    color: #f6f1ef;\n    font-size: 14px;\n    font: 400 14px/1.5 \"Trebuchet MS\", sans-serif;\n  }\n  \n  .closeButton {\n    cursor: pointer;\n    background: none;\n    border: none;\n    color: #fff;\n    font-size: 20px;\n    margin-left: 10px;\n    margin-right: 10px;\n  }\n  \n  .closeButton:hover {\n    color: #2e2019;\n  }\n  "],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWE;;;;;;;AAOA;;;;;;;;AASA;;;;;;;;;;AAUA"}}]
+}

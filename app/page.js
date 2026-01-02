@@ -1,39 +1,60 @@
+'use client';
+
 import React from 'react';
-import Navbar from '../app/navbar';  
+import { useRef } from 'react';
+import TopBanner from './components/TopBanner';
+import Navbar from './components/Navbar';
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ContactSection from "./components/ContactSection";
 
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
 }
  
 export default function HomePage() {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
-    <div className="grid-bg">
-      <Navbar />
+    <div>
+      <TopBanner message="WELCOME TO NAILAT'S PORTFOLIO!" />
+      <Navbar 
+        sections={{
+          home : homeRef,
+          about : aboutRef,
+          projects : projectsRef,
+          experience : experienceRef,
+          contact : contactRef
+        }}
+      />
 
-      {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center">
-        <Header title="Welcome to My Homepage" />
-      </section>
+      <main className="container mx-auto px-4">
+        <section ref={homeRef}>
+          <HeroSection />
+        </section>
 
-      {/* About Section */}
-      <section id="about" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-4xl">About Me</h2>
-      </section>
+        <section ref={aboutRef}>
+          <AboutSection />
+        </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-4xl">Projects</h2>
-      </section>
+        <section ref={projectsRef}>
+          <ProjectsSection />
+        </section>
 
-      {/* Experience Section */}
-      <section id="experience" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-4xl">Projects</h2>
-      </section>
+        <section ref={experienceRef}>
+        <ExperienceSection />
+        </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-4xl">Contact</h2>
-      </section>
+        <section ref={contactRef}>
+          <ContactSection />
+        </section>
+      </main>
     </div>
   );
 }

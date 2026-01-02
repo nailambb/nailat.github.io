@@ -1,0 +1,80 @@
+/* [project]/app/components/Navbar.module.css [app-client] (css) */
+.Navbar-module__pSp8Ga__wrapper {
+  justify-content: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.Navbar-module__pSp8Ga__navbar {
+  background: #fff;
+  border: 2px solid #222;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  padding: .75rem 1.5rem;
+  transition: all .3s;
+  display: flex;
+  top: 1rem;
+}
+
+.Navbar-module__pSp8Ga__logo {
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+
+.Navbar-module__pSp8Ga__logo a {
+  letter-spacing: -.02em;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Navbar-module__pSp8Ga__links {
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Navbar-module__pSp8Ga__links a {
+  color: #222;
+  font-size: .95rem;
+  text-decoration: none;
+}
+
+.Navbar-module__pSp8Ga__links li {
+  display: flex;
+}
+
+.Navbar-module__pSp8Ga__cta {
+  margin: 0 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Navbar-module__pSp8Ga__cta a {
+  color: #222;
+  background: #cfeaec;
+  border: 1.5px solid #222;
+  border-radius: 15px;
+  padding: .4rem .8rem;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.Navbar-module__pSp8Ga__links a:hover, .Navbar-module__pSp8Ga__cta a:hover {
+  opacity: .7;
+}
+
+@media (max-width: 768px) {
+  .Navbar-module__pSp8Ga__links, .Navbar-module__pSp8Ga__cta {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=app_components_Navbar_module_css_bad6b30c._.single.css.map*/

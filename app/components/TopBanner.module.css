@@ -1,0 +1,41 @@
+.topBannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #5C4033;
+    border: 2px solid #5C4033;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .bannerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .text {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    color: #f6f1ef;
+    font-size: 14px;
+    font: 400 14px/1.5 "Trebuchet MS", sans-serif;
+  }
+  
+  .closeButton {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .closeButton:hover {
+    color: #2e2019;
+  }
+  

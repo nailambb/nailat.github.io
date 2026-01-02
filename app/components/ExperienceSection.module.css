@@ -1,0 +1,63 @@
+.experienceSection {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.experienceItem {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experienceRole {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.experienceCompany {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.experienceDuration {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.experienceDescription {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .experienceRole {
+        font-size: 1.3rem;
+    }
+
+    .experienceCompany {
+        font-size: 1rem;
+    }
+
+    .experienceDuration,
+    .experienceDescription {
+        font-size: 0.9rem;
+    }
+}

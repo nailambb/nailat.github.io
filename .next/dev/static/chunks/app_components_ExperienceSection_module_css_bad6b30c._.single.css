@@ -1,0 +1,64 @@
+/* [project]/app/components/ExperienceSection.module.css [app-client] (css) */
+.ExperienceSection-module__JJQpkq__experienceSection {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.ExperienceSection-module__JJQpkq__sectionTitle {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.ExperienceSection-module__JJQpkq__experienceItem {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.ExperienceSection-module__JJQpkq__experienceRole {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ExperienceSection-module__JJQpkq__experienceCompany {
+  color: #666;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.ExperienceSection-module__JJQpkq__experienceDuration {
+  color: #999;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.ExperienceSection-module__JJQpkq__experienceDescription {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .ExperienceSection-module__JJQpkq__sectionTitle {
+    font-size: 2rem;
+  }
+
+  .ExperienceSection-module__JJQpkq__experienceRole {
+    font-size: 1.3rem;
+  }
+
+  .ExperienceSection-module__JJQpkq__experienceCompany {
+    font-size: 1rem;
+  }
+
+  .ExperienceSection-module__JJQpkq__experienceDuration, .ExperienceSection-module__JJQpkq__experienceDescription {
+    font-size: .9rem;
+  }
+}
+
+/*# sourceMappingURL=app_components_ExperienceSection_module_css_bad6b30c._.single.css.map*/

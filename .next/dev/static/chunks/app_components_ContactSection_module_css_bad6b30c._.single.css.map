@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/components/ContactSection.module.css"],"sourcesContent":[".contactSection {\n    padding: 20px;\n    background-color: #f9f9f9;\n}\n\n.contactTitle {\n    font-size: 2rem;\n    margin-bottom: 15px;\n    color: #222;\n}\n\n.contactForm {\n    display: flex;\n    flex-direction: column;\n}\n\n.contactInput {\n    padding: 10px;\n    margin-bottom: 10px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font-size: 1rem;\n}\n\n.contactButton {\n    padding: 10px;\n    background-color: #0070f3;\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    font-size: 1rem;\n    cursor: pointer;\n    transition: background-color 0.3s ease;\n}\n\n.contactButton:hover {\n    background-color: #005bb5;\n}\n\n/* Responsive Styles */\n@media (max-width: 600px) {\n    .contactTitle {\n        font-size: 1.5rem;\n    }\n\n    .contactInput {\n        font-size: 0.9rem;\n    }\n\n    .contactButton {\n        font-size: 0.9rem;\n    }\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;AAMA;;;;;AAKA;;;;;;;;AAQA;;;;;;;;;;;AAWA;;;;AAKA;EACI;;;;EAIA"}}]
+}

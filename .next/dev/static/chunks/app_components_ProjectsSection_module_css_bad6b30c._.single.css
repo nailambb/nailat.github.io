@@ -1,0 +1,72 @@
+/* [project]/app/components/ProjectsSection.module.css [app-client] (css) */
+.ProjectsSection-module__2qoIza__projectsSection {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.ProjectsSection-module__2qoIza__sectionTitle {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.ProjectsSection-module__2qoIza__projectsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.ProjectsSection-module__2qoIza__projectCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform .3s;
+  overflow: hidden;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.ProjectsSection-module__2qoIza__projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.ProjectsSection-module__2qoIza__projectImage {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.ProjectsSection-module__2qoIza__projectInfo {
+  padding: 15px;
+}
+
+.ProjectsSection-module__2qoIza__projectTitle {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.ProjectsSection-module__2qoIza__projectDescription {
+  color: #666;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .ProjectsSection-module__2qoIza__sectionTitle {
+    font-size: 2rem;
+  }
+
+  .ProjectsSection-module__2qoIza__projectImage {
+    height: 120px;
+  }
+
+  .ProjectsSection-module__2qoIza__projectTitle {
+    font-size: 1.3rem;
+  }
+
+  .ProjectsSection-module__2qoIza__projectDescription {
+    font-size: .9rem;
+  }
+}
+
+/*# sourceMappingURL=app_components_ProjectsSection_module_css_bad6b30c._.single.css.map*/
