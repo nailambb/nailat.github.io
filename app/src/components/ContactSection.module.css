@@ -1,0 +1,117 @@
+.contactSection {
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* make cool bg */
+}
+
+.contactTitle {
+    font-size: 5rem;
+    margin-bottom: 15px;
+    color: #222;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contactButton {
+    padding: 10px;
+    background-color: #5C4033;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+    background-color: #7d452b;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  
+  .field label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .field input,
+  .field textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .submitBtn {
+    padding: 0.75rem 1.5rem;
+    background-color: #5C4033;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .submitBtn:hover {
+    background-color: #7d452b;
+  }
+  
+  .submitBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .success { 
+    color: rgb(49, 164, 155); 
+    font-weight: 500; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+  .error { 
+    color: rgb(194, 38, 38);
+    font-weight: 500; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .contactTitle {
+        font-size: 1.5rem;
+    }
+
+    .contactInput {
+        font-size: 0.9rem;
+    }
+
+    .contactButton {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,112 @@
+.projectsSection {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.projectCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+}
+
+.projectImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.projectInfo {
+    padding: 15px;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.projectDescription {
+    font-size: 1rem;
+    color: #666;
+}
+
+.emblaWrapper {
+    position: relative;
+  }
+  
+  /* The viewport — must have overflow: hidden */
+  .embla {
+    overflow: hidden;
+  }
+  
+  /* The track that holds all slides in a row */
+  .emblaContainer {
+    display: flex;
+  }
+  
+  /* Each individual slide */
+  .emblaSlide {
+    flex: 0 0 33.33%;   /* Show ~3 cards at once — adjust as needed */
+    min-width: 0;
+    padding: 0 0.75rem;
+  }
+  
+  /* Prev/Next buttons */
+  .emblaPrev,
+  .emblaNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .emblaPrev { left: -1.25rem; }
+  .emblaNext { right: -1.25rem; }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .projectImage {
+        height: 120px;
+    }
+
+    .projectTitle {
+        font-size: 1.3rem;
+    }
+
+    .projectDescription {
+        font-size: 0.9rem;
+    }
+}
+

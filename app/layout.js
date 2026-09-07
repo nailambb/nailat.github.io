@@ -1,4 +1,6 @@
 import { DM_Serif_Display } from 'next/font/google';
+import './globals.css';
+
 
 export const dmSerif = DM_Serif_Display({
   weight: '400',

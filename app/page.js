@@ -1,14 +1,14 @@
 'use client';
-
 import React from 'react';
 import { useRef } from 'react';
-import TopBanner from './components/TopBanner';
-import Navbar from './components/Navbar';
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import ProjectsSection from "./components/ProjectsSection";
-import ExperienceSection from "./components/ExperienceSection";
-import ContactSection from "./components/ContactSection";
+import TopBanner from './src/components/TopBanner';
+import Navbar from './src/components/Navbar';
+import HeroSection from "./src/components/HeroSection";
+import AboutSection from "./src/components/AboutSection";
+import ProjectsSection from "./src/components/ProjectsSection";
+import ExperienceSection from "./src/components/ExperienceSection";
+import ContactSection from "./src/components/ContactSection";
+import SquigglyLine from './src/components/SquigglyLine';
 
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
@@ -34,11 +34,13 @@ export default function HomePage() {
         }}
       />
 
-      <main className="container mx-auto px-4">
+      <main>
         <section ref={homeRef}>
           <HeroSection />
         </section>
-
+        <div style={{ position: 'relative', height: '0px', color: '#5C4033' }}>
+          <SquigglyLine />
+        </div>
         <section ref={aboutRef}>
           <AboutSection />
         </section>

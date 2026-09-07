@@ -1,1 +1,2 @@
-[00:00:00.316] Server  LOG     ✓ Ready in 216ms
+{"timestamp":"00:00:02.176","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:08.793","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}

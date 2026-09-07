@@ -1,0 +1,146 @@
+/* [project]/app/src/components/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__P8KOBa__hero {
+  background-color: #f5f0e8;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.HeroSection-module__P8KOBa__heroContent {
+  z-index: 1;
+  color: #f5f0e8;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  display: flex;
+}
+
+.HeroSection-module__P8KOBa__heroTitle {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.HeroSection-module__P8KOBa__projectTitle {
+  font-optical-sizing: auto;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Dancing Script, cursive;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.HeroSection-module__P8KOBa__heroSubtitle {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.HeroSection-module__P8KOBa__heroButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e99dbd;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  transition: background-color .3s;
+}
+
+.HeroSection-module__P8KOBa__heroButton:hover {
+  background-color: #c35380;
+}
+
+.HeroSection-module__P8KOBa__heroImage {
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.HeroSection-module__P8KOBa__pinkBlob {
+  z-index: 0;
+  background-color: #ffb6c1;
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.HeroSection-module__P8KOBa__cutoutImage {
+  z-index: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.HeroSection-module__P8KOBa__dateBadge {
+  text-align: center;
+  background: #fff;
+  border: 2px solid #222;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: .6rem;
+  font-weight: bold;
+  display: flex;
+  box-shadow: 3px 3px #222;
+}
+
+.HeroSection-module__P8KOBa__stickyTag {
+  color: #fff;
+  letter-spacing: 1px;
+  background: #ff6eb4;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: .85rem;
+  font-weight: bold;
+  transform: rotate(-5deg);
+  box-shadow: 3px 3px #222;
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__P8KOBa__heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .HeroSection-module__P8KOBa__heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .HeroSection-module__P8KOBa__heroButton {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+
+  .HeroSection-module__P8KOBa__heroSection {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .HeroSection-module__P8KOBa__heroImage {
+    margin-top: 2rem;
+  }
+}
+
+/*# sourceMappingURL=app_src_components_HeroSection_module_css_1igg3k2._.single.css.map*/
