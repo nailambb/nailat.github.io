@@ -145,13 +145,6 @@ Data Structures · Protein Engineering and Biochemistry Lab · Computer System F
 
 ---
 
-## GitHub Stats
-
-![Nailat's GitHub stats](https://github-readme-stats.vercel.app/api?username=nailambb&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nailambb&layout=compact)
-
----
-
 ## Let's Connect
 
 I'm always happy to talk about healthcare-focused software, computer vision, or full-stack development. Reach out via [email](mailto:ntaiyab1@jh.edu) or [LinkedIn](https://www.linkedin.com/in/nailat-taiyabah-6bb70928a).
